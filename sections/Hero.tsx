@@ -2,7 +2,7 @@ import Button from "@/sections/Button";
 import starbg from "@/assets/stars.png"
 
 export const Hero = () => {
-  return <section className="h-[700px] md:h-[800px] flex items-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)] "
+  return <section className="h-[700px] md:h-[800px] flex items-center relative overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)] "
     style={{
       backgroundImage: `url(${starbg.src})`
     }}>
