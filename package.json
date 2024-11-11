@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dotlottie/react-player": "^1.6.19",
     "@svgr/webpack": "^8.1.0",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
