@@ -52,10 +52,9 @@ export const Features = () => {
         })}
       </div>
       <div className="border border-white/20 p-2.5 rounded-xl mt-3">
-      <div className="aspect-video bg-cover border border-white/20 rounded-lg" style={{
-        backgroundImage: `url(${prodImg.src})`,
-        
-      }}></div>
+        <div className="aspect-video bg-cover border border-white/20 rounded-lg" style={{
+          backgroundImage: `url(${prodImg.src})`,
+        }}></div>
       </div>
     </div>
   </section>;
