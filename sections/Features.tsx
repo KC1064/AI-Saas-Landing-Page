@@ -32,8 +32,8 @@ const tabs = [
 export const Features = () => {
   return <section className="px-2 py-20 md:py-24">
     <div className="container">
-      <h2 className="text-5xl md:text-6xl font-medium text-center tracking-tighter">Elevate your SEO efforts.</h2>
-      <p className="text-white/70 text-lg md:text-xl tracking-tighter text-center mt-5">From small stratups to large enterprises, our AI-driven tool has revlutionized
+      <h2 className="text-5xl md:text-6xl font-medium text-center tracking-tighter ">Elevate your SEO efforts.</h2>
+      <p className="text-white/70 text-lg md:text-xl tracking-tighter text-center mt-5 lg:max-w-2xl lg:mx-auto">From small stratups to large enterprises, our AI-driven tool has revlutionized
         the way businesses approach SEO. Discover the power of our platform.</p>
       <div className="mt-10 flex flex-col lg:flex-row  gap-3 px-2">
         {tabs.map(tab => {
