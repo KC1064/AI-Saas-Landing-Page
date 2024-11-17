@@ -48,18 +48,14 @@ export const CallToAction = () => {
           repeat: Infinity,
           ease: "linear"
         }}
-        className="border border-white/15 py-24 rounded-xl overflow-hidden relative group" style={{
+        className="border border-white/15 py-24 rounded-xl overflow-hidden relative " style={{
           backgroundImage: `url(${starbg.src})`,
           backgroundPositionY
         }}>
-        <div className="absolute inset-0 bg-[rgb(74,32,138)] bg-blend-overlay [mask-image:radial-gradient(50%_50%_at_50%_35%,black,transparent)]  -z-10 group-hover:opacity-100 transition duration-700" style={{
+        <div className="absolute inset-0 bg-[rgb(74,32,138)] bg-blend-overlay -z-10 [mask-image:radial-gradient(50%_50%_at_50%_35%,black,transparent)]" style={{
           backgroundImage: `url(${gridLines.src})`
         }}></div>
-        <motion.div className="absolute inset-0 bg-[rgb(74,32,138)] bg-blend-overlay  -z-10 group-hover:opacity-0 transition duration-700" style={{
-          backgroundImage: `url(${gridLines.src})`,
-          maskImage
-        }}></motion.div>
-        <h1 className="text-5xl md:text-6xl mx-auto tracking-tighter text-center font-medium">AI Driven SEO for everyone.</h1>
+        <h1 className="text-5xl md:text-6xl mx-auto tracking-tighter text-center font-medium ">AI Driven SEO for everyone.</h1>
         <p className="text-center text-lg md:text-xl max-w-xs mx-auto text-white/70 px-4 mt-3 tracking-tight">Achieve clear, impactful results without the complexity.</p>
         <div className="flex justify-center mt-8"><Button />
         </div>
@@ -67,5 +63,3 @@ export const CallToAction = () => {
     </div>
   </section>;
 };
-
-// 40
